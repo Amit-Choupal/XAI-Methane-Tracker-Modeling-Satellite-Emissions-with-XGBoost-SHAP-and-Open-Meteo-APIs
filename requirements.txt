@@ -1,0 +1,10 @@
+The Python libraries required to install to run this project.
+
+xgboost
+shap
+geopandas
+shapely
+requests
+folium
+pandas
+numpy

@@ -1,0 +1,1621 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_428e1a6fbac4cdff6cd11b04f71766d6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_428e1a6fbac4cdff6cd11b04f71766d6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_428e1a6fbac4cdff6cd11b04f71766d6 = L.map(
+                "map_428e1a6fbac4cdff6cd11b04f71766d6",
+                {
+                    center: [38.53388730349218, 56.86225854691128],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_817b74a98290e28c0ebf434128f16b11 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_817b74a98290e28c0ebf434128f16b11.addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var marker_5bc76fe329ed3a5b019b44d0e49051cb = L.marker(
+                [31.123219445230124, 35.206884413312395],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_b504fa15479250aa21cf05e853b377aa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b7f38f1749403286f13586885ee1f436 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d819a405ade16b87282e7a4c5919cfcc = $(`<div id="html_d819a405ade16b87282e7a4c5919cfcc" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-485<br>Sector: Waste_Landfill<br>Conc: 3038 ppm-m</div>`)[0];
+                popup_b7f38f1749403286f13586885ee1f436.setContent(html_d819a405ade16b87282e7a4c5919cfcc);
+            
+        
+
+        marker_5bc76fe329ed3a5b019b44d0e49051cb.bindPopup(popup_b7f38f1749403286f13586885ee1f436)
+        ;
+
+        
+    
+    
+                marker_5bc76fe329ed3a5b019b44d0e49051cb.setIcon(icon_b504fa15479250aa21cf05e853b377aa);
+            
+    
+            var marker_8f3e3925d6dc405b0a9130b5747f2844 = L.marker(
+                [31.90557733452252, 36.22917356108617],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_22e1e7cadd0bfc9dd74474a0b101d64e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8a4e1c3418716bd0c1b6e8660c6b1bc7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a883a8cfcfbdf17338240e8625bfbb22 = $(`<div id="html_a883a8cfcfbdf17338240e8625bfbb22" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-486<br>Sector: Waste_Landfill<br>Conc: 1368 ppm-m</div>`)[0];
+                popup_8a4e1c3418716bd0c1b6e8660c6b1bc7.setContent(html_a883a8cfcfbdf17338240e8625bfbb22);
+            
+        
+
+        marker_8f3e3925d6dc405b0a9130b5747f2844.bindPopup(popup_8a4e1c3418716bd0c1b6e8660c6b1bc7)
+        ;
+
+        
+    
+    
+                marker_8f3e3925d6dc405b0a9130b5747f2844.setIcon(icon_22e1e7cadd0bfc9dd74474a0b101d64e);
+            
+    
+            var marker_6a69d25f41127f108cb0191b95a3e380 = L.marker(
+                [35.299173779445134, 40.463943895716525],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_5c46382c3900f7e7ff4574d64129ca7d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7938881e650f963064026a698cbffcd1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fcbb7477998c4acad97c13fe33964ae = $(`<div id="html_5fcbb7477998c4acad97c13fe33964ae" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-487<br>Sector: Oil_Gas_Energy<br>Conc: 3560 ppm-m</div>`)[0];
+                popup_7938881e650f963064026a698cbffcd1.setContent(html_5fcbb7477998c4acad97c13fe33964ae);
+            
+        
+
+        marker_6a69d25f41127f108cb0191b95a3e380.bindPopup(popup_7938881e650f963064026a698cbffcd1)
+        ;
+
+        
+    
+    
+                marker_6a69d25f41127f108cb0191b95a3e380.setIcon(icon_5c46382c3900f7e7ff4574d64129ca7d);
+            
+    
+            var marker_38e93e73aa1fe308445ed10a53587b0c = L.marker(
+                [35.27908726605934, 40.5081674593281],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_2b33bc3f16b5dcc5d5cbadd1cebdf082 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_152ca0920012789ab6101c9462ff9148 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93ce1516f55a83ed00b6cd55a29b0dd2 = $(`<div id="html_93ce1516f55a83ed00b6cd55a29b0dd2" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-496<br>Sector: Waste_Landfill<br>Conc: 1409 ppm-m</div>`)[0];
+                popup_152ca0920012789ab6101c9462ff9148.setContent(html_93ce1516f55a83ed00b6cd55a29b0dd2);
+            
+        
+
+        marker_38e93e73aa1fe308445ed10a53587b0c.bindPopup(popup_152ca0920012789ab6101c9462ff9148)
+        ;
+
+        
+    
+    
+                marker_38e93e73aa1fe308445ed10a53587b0c.setIcon(icon_2b33bc3f16b5dcc5d5cbadd1cebdf082);
+            
+    
+            var marker_3da1903752610a08df7751ac6f0b5a8e = L.marker(
+                [31.1278896525, 35.2028145938],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_913ca4da6863bfd1581a9e51d2422af7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_55f900c7b90b4eec4054ac69223296f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ecebf360aa85401b4b7a08edc91f7cac = $(`<div id="html_ecebf360aa85401b4b7a08edc91f7cac" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-485<br>Sector: Waste_Landfill<br>Conc: 3038 ppm-m</div>`)[0];
+                popup_55f900c7b90b4eec4054ac69223296f0.setContent(html_ecebf360aa85401b4b7a08edc91f7cac);
+            
+        
+
+        marker_3da1903752610a08df7751ac6f0b5a8e.bindPopup(popup_55f900c7b90b4eec4054ac69223296f0)
+        ;
+
+        
+    
+    
+                marker_3da1903752610a08df7751ac6f0b5a8e.setIcon(icon_913ca4da6863bfd1581a9e51d2422af7);
+            
+    
+            var marker_09551eaf8e25516de48f29da68d27c99 = L.marker(
+                [31.9081622491, 36.2276340571],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_73fb8d20bd5ac44a4a10be298ba94463 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f9c639b210f3193fbd89a43a15b106ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_125dc8136311d2095f5588e5a5e7e2b9 = $(`<div id="html_125dc8136311d2095f5588e5a5e7e2b9" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-486<br>Sector: Waste_Landfill<br>Conc: 1368 ppm-m</div>`)[0];
+                popup_f9c639b210f3193fbd89a43a15b106ba.setContent(html_125dc8136311d2095f5588e5a5e7e2b9);
+            
+        
+
+        marker_09551eaf8e25516de48f29da68d27c99.bindPopup(popup_f9c639b210f3193fbd89a43a15b106ba)
+        ;
+
+        
+    
+    
+                marker_09551eaf8e25516de48f29da68d27c99.setIcon(icon_73fb8d20bd5ac44a4a10be298ba94463);
+            
+    
+            var marker_30235bcaf6b30883560bcbbc8a9d197a = L.marker(
+                [35.2992844308, 40.4565054826],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_2dfb6414194bc4042009b47611495170 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e40ed0679b02329a0af69fc16e6e6dc7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56340c5d3da29ffc7ae0cb529c9e5733 = $(`<div id="html_56340c5d3da29ffc7ae0cb529c9e5733" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-487<br>Sector: Oil_Gas_Energy<br>Conc: 3560 ppm-m</div>`)[0];
+                popup_e40ed0679b02329a0af69fc16e6e6dc7.setContent(html_56340c5d3da29ffc7ae0cb529c9e5733);
+            
+        
+
+        marker_30235bcaf6b30883560bcbbc8a9d197a.bindPopup(popup_e40ed0679b02329a0af69fc16e6e6dc7)
+        ;
+
+        
+    
+    
+                marker_30235bcaf6b30883560bcbbc8a9d197a.setIcon(icon_2dfb6414194bc4042009b47611495170);
+            
+    
+            var marker_29b278fac6b6a7d8dad33bcd24ae8f6c = L.marker(
+                [35.2770528975, 40.5128976647],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_86ead37ed1e1e852892c24f24fb423e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_23c1ee3c03f7c945f5a0139b5ba7c91a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19027da6cf266823dd6b22969b0a4b2a = $(`<div id="html_19027da6cf266823dd6b22969b0a4b2a" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-496<br>Sector: Waste_Landfill<br>Conc: 1409 ppm-m</div>`)[0];
+                popup_23c1ee3c03f7c945f5a0139b5ba7c91a.setContent(html_19027da6cf266823dd6b22969b0a4b2a);
+            
+        
+
+        marker_29b278fac6b6a7d8dad33bcd24ae8f6c.bindPopup(popup_23c1ee3c03f7c945f5a0139b5ba7c91a)
+        ;
+
+        
+    
+    
+                marker_29b278fac6b6a7d8dad33bcd24ae8f6c.setIcon(icon_86ead37ed1e1e852892c24f24fb423e8);
+            
+    
+            var marker_e025819fa8587f623fd8981285a23e6c = L.marker(
+                [22.340696017098548, 56.404984127543166],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_0ba3af3a3747a5f10142825fd095c19e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a87edb2ab7865e90ec96353c2b7326ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2a9d7fc310d064fd32b4fe793121132 = $(`<div id="html_a2a9d7fc310d064fd32b4fe793121132" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-490<br>Sector: Waste_Landfill<br>Conc: 1299 ppm-m</div>`)[0];
+                popup_a87edb2ab7865e90ec96353c2b7326ac.setContent(html_a2a9d7fc310d064fd32b4fe793121132);
+            
+        
+
+        marker_e025819fa8587f623fd8981285a23e6c.bindPopup(popup_a87edb2ab7865e90ec96353c2b7326ac)
+        ;
+
+        
+    
+    
+                marker_e025819fa8587f623fd8981285a23e6c.setIcon(icon_0ba3af3a3747a5f10142825fd095c19e);
+            
+    
+            var marker_dbeaaf5724698150cbf8d85047a8791b = L.marker(
+                [22.3312514764, 56.4062750659],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_bddcc3ff1102dd622ebe15f037858f5b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4a16a6d12525b1188d0ab84437195ce6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15a4047c149ceb44e3f2bdb73192fe93 = $(`<div id="html_15a4047c149ceb44e3f2bdb73192fe93" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-490<br>Sector: Waste_Landfill<br>Conc: 1299 ppm-m</div>`)[0];
+                popup_4a16a6d12525b1188d0ab84437195ce6.setContent(html_15a4047c149ceb44e3f2bdb73192fe93);
+            
+        
+
+        marker_dbeaaf5724698150cbf8d85047a8791b.bindPopup(popup_4a16a6d12525b1188d0ab84437195ce6)
+        ;
+
+        
+    
+    
+                marker_dbeaaf5724698150cbf8d85047a8791b.setIcon(icon_bddcc3ff1102dd622ebe15f037858f5b);
+            
+    
+            var marker_dee380a11e4701d02f4f61d76e04f411 = L.marker(
+                [34.89278558041047, 41.14905474373639],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_fe5cc1829c73756712d74fd72e6e3e89 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a6877c0c3a691b63b7aa783ae94c48cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c6034c94112ecec96a544bdafd3f6c2 = $(`<div id="html_1c6034c94112ecec96a544bdafd3f6c2" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-491<br>Sector: Waste_Landfill<br>Conc: 1388 ppm-m</div>`)[0];
+                popup_a6877c0c3a691b63b7aa783ae94c48cf.setContent(html_1c6034c94112ecec96a544bdafd3f6c2);
+            
+        
+
+        marker_dee380a11e4701d02f4f61d76e04f411.bindPopup(popup_a6877c0c3a691b63b7aa783ae94c48cf)
+        ;
+
+        
+    
+    
+                marker_dee380a11e4701d02f4f61d76e04f411.setIcon(icon_fe5cc1829c73756712d74fd72e6e3e89);
+            
+    
+            var marker_75a6f539c5cf356b90ea58efc4bca57f = L.marker(
+                [34.8936945057, 41.1380917605],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_43c3981e38a74b19538e6012a4e22aba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e201a78bebc9df94149427b2ddb6d1bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efb72a83d51fb6444a05d5926c86bd1f = $(`<div id="html_efb72a83d51fb6444a05d5926c86bd1f" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-491<br>Sector: Waste_Landfill<br>Conc: 1388 ppm-m</div>`)[0];
+                popup_e201a78bebc9df94149427b2ddb6d1bf.setContent(html_efb72a83d51fb6444a05d5926c86bd1f);
+            
+        
+
+        marker_75a6f539c5cf356b90ea58efc4bca57f.bindPopup(popup_e201a78bebc9df94149427b2ddb6d1bf)
+        ;
+
+        
+    
+    
+                marker_75a6f539c5cf356b90ea58efc4bca57f.setIcon(icon_43c3981e38a74b19538e6012a4e22aba);
+            
+    
+            var marker_f4f761e5a05d14e8cc3120efbae6c1c2 = L.marker(
+                [39.49979333889778, 53.5115050793784],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_29bee0f4d4c8ffa75270ec649ec36095 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4b2f1a1235450458b37210cfe8fcd434 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df08ae1d25867e3543ca92d7066db7c0 = $(`<div id="html_df08ae1d25867e3543ca92d7066db7c0" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-492<br>Sector: Oil_Gas_Energy<br>Conc: 4843 ppm-m</div>`)[0];
+                popup_4b2f1a1235450458b37210cfe8fcd434.setContent(html_df08ae1d25867e3543ca92d7066db7c0);
+            
+        
+
+        marker_f4f761e5a05d14e8cc3120efbae6c1c2.bindPopup(popup_4b2f1a1235450458b37210cfe8fcd434)
+        ;
+
+        
+    
+    
+                marker_f4f761e5a05d14e8cc3120efbae6c1c2.setIcon(icon_29bee0f4d4c8ffa75270ec649ec36095);
+            
+    
+            var marker_f41d7c81193f571128bec6728663dd8f = L.marker(
+                [39.38306768495303, 53.61609597050149],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_67321b4407fa45efed9cf3db0578e866 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_717da9b4b169bc7f374a050725bb21e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fad4291dd740baebf1b3804c031137f = $(`<div id="html_4fad4291dd740baebf1b3804c031137f" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-493<br>Sector: Oil_Gas_Energy<br>Conc: 4855 ppm-m</div>`)[0];
+                popup_717da9b4b169bc7f374a050725bb21e7.setContent(html_4fad4291dd740baebf1b3804c031137f);
+            
+        
+
+        marker_f41d7c81193f571128bec6728663dd8f.bindPopup(popup_717da9b4b169bc7f374a050725bb21e7)
+        ;
+
+        
+    
+    
+                marker_f41d7c81193f571128bec6728663dd8f.setIcon(icon_67321b4407fa45efed9cf3db0578e866);
+            
+    
+            var marker_d2edc254e5363ac3cea6c7a00ce900e5 = L.marker(
+                [39.34955912972498, 53.868771882177306],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_9577cf00fc382007fcb52df3478f1d32 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9afe9c01b96b0d1eaccd035143cbb75b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_795d3ff7d08c6e728d984e94fd77af8c = $(`<div id="html_795d3ff7d08c6e728d984e94fd77af8c" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-494<br>Sector: Waste_Landfill<br>Conc: 1750 ppm-m</div>`)[0];
+                popup_9afe9c01b96b0d1eaccd035143cbb75b.setContent(html_795d3ff7d08c6e728d984e94fd77af8c);
+            
+        
+
+        marker_d2edc254e5363ac3cea6c7a00ce900e5.bindPopup(popup_9afe9c01b96b0d1eaccd035143cbb75b)
+        ;
+
+        
+    
+    
+                marker_d2edc254e5363ac3cea6c7a00ce900e5.setIcon(icon_9577cf00fc382007fcb52df3478f1d32);
+            
+    
+            var marker_ee073021d5c44660520e50970153cf86 = L.marker(
+                [39.4625457214, 53.7742784126],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_88fc9cb75cacdd98d34810d9642d0543 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2d6bc5705fc1176cad2b3c85591d69d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57e7dd492193004af1c450223e0a32b4 = $(`<div id="html_57e7dd492193004af1c450223e0a32b4" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-492<br>Sector: Oil_Gas_Energy<br>Conc: 4843 ppm-m</div>`)[0];
+                popup_2d6bc5705fc1176cad2b3c85591d69d4.setContent(html_57e7dd492193004af1c450223e0a32b4);
+            
+        
+
+        marker_ee073021d5c44660520e50970153cf86.bindPopup(popup_2d6bc5705fc1176cad2b3c85591d69d4)
+        ;
+
+        
+    
+    
+                marker_ee073021d5c44660520e50970153cf86.setIcon(icon_88fc9cb75cacdd98d34810d9642d0543);
+            
+    
+            var marker_4a57e407c13dc9d24dbe5b0d09790fa3 = L.marker(
+                [39.3606060076, 53.7650604598],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_4d96484ad12adc2431024362a1d94738 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_36066b3f16e2bd3cf053481e3bda6273 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6343eb608b67793b305ccf5a7cdba8d = $(`<div id="html_d6343eb608b67793b305ccf5a7cdba8d" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-493<br>Sector: Oil_Gas_Energy<br>Conc: 4855 ppm-m</div>`)[0];
+                popup_36066b3f16e2bd3cf053481e3bda6273.setContent(html_d6343eb608b67793b305ccf5a7cdba8d);
+            
+        
+
+        marker_4a57e407c13dc9d24dbe5b0d09790fa3.bindPopup(popup_36066b3f16e2bd3cf053481e3bda6273)
+        ;
+
+        
+    
+    
+                marker_4a57e407c13dc9d24dbe5b0d09790fa3.setIcon(icon_4d96484ad12adc2431024362a1d94738);
+            
+    
+            var marker_a0afe9a26d4fd995796728a386be9d7b = L.marker(
+                [39.3540992173, 53.8729647313],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_53de3e168cc5950edebe4e16e80bef6c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d41221993667caecd5f059324a00ebdf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5297db8101f5d5eed1acf051283c0769 = $(`<div id="html_5297db8101f5d5eed1acf051283c0769" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-494<br>Sector: Waste_Landfill<br>Conc: 1750 ppm-m</div>`)[0];
+                popup_d41221993667caecd5f059324a00ebdf.setContent(html_5297db8101f5d5eed1acf051283c0769);
+            
+        
+
+        marker_a0afe9a26d4fd995796728a386be9d7b.bindPopup(popup_d41221993667caecd5f059324a00ebdf)
+        ;
+
+        
+    
+    
+                marker_a0afe9a26d4fd995796728a386be9d7b.setIcon(icon_53de3e168cc5950edebe4e16e80bef6c);
+            
+    
+            var marker_1ab8b4a19a6e708a9f0550a5a1b0fa51 = L.marker(
+                [49.89863480222122, 72.2185345803094],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_18a0694dde43e833129d7ce640d80707 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ee7c45b8af903331e71136bf2394d125 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7da40922b566599c1030b5d3cd79597c = $(`<div id="html_7da40922b566599c1030b5d3cd79597c" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-495<br>Sector: Waste_Landfill<br>Conc: 2407 ppm-m</div>`)[0];
+                popup_ee7c45b8af903331e71136bf2394d125.setContent(html_7da40922b566599c1030b5d3cd79597c);
+            
+        
+
+        marker_1ab8b4a19a6e708a9f0550a5a1b0fa51.bindPopup(popup_ee7c45b8af903331e71136bf2394d125)
+        ;
+
+        
+    
+    
+                marker_1ab8b4a19a6e708a9f0550a5a1b0fa51.setIcon(icon_18a0694dde43e833129d7ce640d80707);
+            
+    
+            var marker_3fb5bf4d155f4cea1e19ed7ad8f5c66a = L.marker(
+                [50.23162335963595, 72.90557651692674],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_8668b948d8dc58bb0d47e62ecd5ecb50 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9a30f556178c723e97164b7489f8fa17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc4881ce25d13a0bffddc2e742e0b716 = $(`<div id="html_bc4881ce25d13a0bffddc2e742e0b716" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-742<br>Sector: Waste_Landfill<br>Conc: 2734 ppm-m</div>`)[0];
+                popup_9a30f556178c723e97164b7489f8fa17.setContent(html_bc4881ce25d13a0bffddc2e742e0b716);
+            
+        
+
+        marker_3fb5bf4d155f4cea1e19ed7ad8f5c66a.bindPopup(popup_9a30f556178c723e97164b7489f8fa17)
+        ;
+
+        
+    
+    
+                marker_3fb5bf4d155f4cea1e19ed7ad8f5c66a.setIcon(icon_8668b948d8dc58bb0d47e62ecd5ecb50);
+            
+    
+            var marker_7af35c7f98a241a2efc6f49c993c0740 = L.marker(
+                [49.9091974566, 72.2156064265],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_9bec744577632a580c6df01be1fb269b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d60cfae0ccbabd3248782e3cbd5227e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d28ae37c74083e33a995c6c38d52ddd = $(`<div id="html_2d28ae37c74083e33a995c6c38d52ddd" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-495<br>Sector: Waste_Landfill<br>Conc: 2407 ppm-m</div>`)[0];
+                popup_d60cfae0ccbabd3248782e3cbd5227e0.setContent(html_2d28ae37c74083e33a995c6c38d52ddd);
+            
+        
+
+        marker_7af35c7f98a241a2efc6f49c993c0740.bindPopup(popup_d60cfae0ccbabd3248782e3cbd5227e0)
+        ;
+
+        
+    
+    
+                marker_7af35c7f98a241a2efc6f49c993c0740.setIcon(icon_9bec744577632a580c6df01be1fb269b);
+            
+    
+            var marker_7e6aff739cf9db62caf4cde1c190fe81 = L.marker(
+                [50.2231500858, 72.9053261923],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_5cfc99202a8e18185597f1b5a20b8588 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_90606fb170526d908c75d9ec02708fe3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_808accfb85d8de262ea5fcfccccba70d = $(`<div id="html_808accfb85d8de262ea5fcfccccba70d" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-742<br>Sector: Waste_Landfill<br>Conc: 2734 ppm-m</div>`)[0];
+                popup_90606fb170526d908c75d9ec02708fe3.setContent(html_808accfb85d8de262ea5fcfccccba70d);
+            
+        
+
+        marker_7e6aff739cf9db62caf4cde1c190fe81.bindPopup(popup_90606fb170526d908c75d9ec02708fe3)
+        ;
+
+        
+    
+    
+                marker_7e6aff739cf9db62caf4cde1c190fe81.setIcon(icon_5cfc99202a8e18185597f1b5a20b8588);
+            
+    
+            var marker_f54b8fcdf3f06c0e61c432d01ddb1419 = L.marker(
+                [28.785399014185977, 20.868291773067835],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_757332a40bb09aa6fe303ddae2e146bb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a024c2463cd93713056db7fff948d2f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73229b9db1e5b7b93b5690c77546e7ab = $(`<div id="html_73229b9db1e5b7b93b5690c77546e7ab" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-497<br>Sector: Oil_Gas_Energy<br>Conc: 4257 ppm-m</div>`)[0];
+                popup_a024c2463cd93713056db7fff948d2f2.setContent(html_73229b9db1e5b7b93b5690c77546e7ab);
+            
+        
+
+        marker_f54b8fcdf3f06c0e61c432d01ddb1419.bindPopup(popup_a024c2463cd93713056db7fff948d2f2)
+        ;
+
+        
+    
+    
+                marker_f54b8fcdf3f06c0e61c432d01ddb1419.setIcon(icon_757332a40bb09aa6fe303ddae2e146bb);
+            
+    
+            var marker_ac34e89322131183024bb90c6c863a47 = L.marker(
+                [28.8228592089, 20.8515464802],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_74a57cfea1cff656676d34a77d108dd9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1fb5679d8ea790b1b1e307f435fc47a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88c6733a5aaaf938a4c38284cee62da6 = $(`<div id="html_88c6733a5aaaf938a4c38284cee62da6" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-497<br>Sector: Oil_Gas_Energy<br>Conc: 4257 ppm-m</div>`)[0];
+                popup_1fb5679d8ea790b1b1e307f435fc47a4.setContent(html_88c6733a5aaaf938a4c38284cee62da6);
+            
+        
+
+        marker_ac34e89322131183024bb90c6c863a47.bindPopup(popup_1fb5679d8ea790b1b1e307f435fc47a4)
+        ;
+
+        
+    
+    
+                marker_ac34e89322131183024bb90c6c863a47.setIcon(icon_74a57cfea1cff656676d34a77d108dd9);
+            
+    
+            var marker_2fd073563a71c257ec2585db605d6c08 = L.marker(
+                [45.99649102525404, 72.70550160406566],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_a2ad3e2ff771c9ac057b2ae65d0f86f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b494985e51793357321ab315e877b5e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99d99c52102ac33e307a86e8fb7f6953 = $(`<div id="html_99d99c52102ac33e307a86e8fb7f6953" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-741<br>Sector: Waste_Landfill<br>Conc: 1939 ppm-m</div>`)[0];
+                popup_b494985e51793357321ab315e877b5e0.setContent(html_99d99c52102ac33e307a86e8fb7f6953);
+            
+        
+
+        marker_2fd073563a71c257ec2585db605d6c08.bindPopup(popup_b494985e51793357321ab315e877b5e0)
+        ;
+
+        
+    
+    
+                marker_2fd073563a71c257ec2585db605d6c08.setIcon(icon_a2ad3e2ff771c9ac057b2ae65d0f86f4);
+            
+    
+            var marker_d770ded41b3e0b78354c9ac76ce52ba5 = L.marker(
+                [46.0002432181, 72.6992778346],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_4dbd71089dbd3e6c61fe3e51a9dbb120 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_40944675f57935477280b4232f1c17cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90ccb40d84ba64b279c4a43e37efb399 = $(`<div id="html_90ccb40d84ba64b279c4a43e37efb399" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-741<br>Sector: Waste_Landfill<br>Conc: 1939 ppm-m</div>`)[0];
+                popup_40944675f57935477280b4232f1c17cd.setContent(html_90ccb40d84ba64b279c4a43e37efb399);
+            
+        
+
+        marker_d770ded41b3e0b78354c9ac76ce52ba5.bindPopup(popup_40944675f57935477280b4232f1c17cd)
+        ;
+
+        
+    
+    
+                marker_d770ded41b3e0b78354c9ac76ce52ba5.setIcon(icon_4dbd71089dbd3e6c61fe3e51a9dbb120);
+            
+    
+            var marker_4a29e8b341b3d6c932532904e9bd7477 = L.marker(
+                [39.66429747384454, 60.19499286124735],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_f18fc70fa3a69372e961c8d97aa4aaf7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_faf574ca6800725b1e01ac856199dbd8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a0c73e9f5a97491123d1ba9adcd759d = $(`<div id="html_0a0c73e9f5a97491123d1ba9adcd759d" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-500<br>Sector: Waste_Landfill<br>Conc: 1699 ppm-m</div>`)[0];
+                popup_faf574ca6800725b1e01ac856199dbd8.setContent(html_0a0c73e9f5a97491123d1ba9adcd759d);
+            
+        
+
+        marker_4a29e8b341b3d6c932532904e9bd7477.bindPopup(popup_faf574ca6800725b1e01ac856199dbd8)
+        ;
+
+        
+    
+    
+                marker_4a29e8b341b3d6c932532904e9bd7477.setIcon(icon_f18fc70fa3a69372e961c8d97aa4aaf7);
+            
+    
+            var marker_de2ff9afd48a0e0b85a05611b6f8abfa = L.marker(
+                [40.24279340992102, 58.43581117756599],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_9718b07732d4164ada75620304e66e77 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a5c2050546ab25d371819e8f002ecc09 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cfab7397bbc32dd046b8b8c90a89bb58 = $(`<div id="html_cfab7397bbc32dd046b8b8c90a89bb58" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-502<br>Sector: Waste_Landfill<br>Conc: 1226 ppm-m</div>`)[0];
+                popup_a5c2050546ab25d371819e8f002ecc09.setContent(html_cfab7397bbc32dd046b8b8c90a89bb58);
+            
+        
+
+        marker_de2ff9afd48a0e0b85a05611b6f8abfa.bindPopup(popup_a5c2050546ab25d371819e8f002ecc09)
+        ;
+
+        
+    
+    
+                marker_de2ff9afd48a0e0b85a05611b6f8abfa.setIcon(icon_9718b07732d4164ada75620304e66e77);
+            
+    
+            var marker_1ac321fdd68e220a5a94d1fdd21375f5 = L.marker(
+                [50.23112140616482, 72.9049082904135],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_b9614033132fa8a29aca68ed4b835c52 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_52582eea4ad865d8fce0ebfb0066cfa2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d17c82406404665795c014db1b31952 = $(`<div id="html_2d17c82406404665795c014db1b31952" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-743<br>Sector: Oil_Gas_Energy<br>Conc: 3843 ppm-m</div>`)[0];
+                popup_52582eea4ad865d8fce0ebfb0066cfa2.setContent(html_2d17c82406404665795c014db1b31952);
+            
+        
+
+        marker_1ac321fdd68e220a5a94d1fdd21375f5.bindPopup(popup_52582eea4ad865d8fce0ebfb0066cfa2)
+        ;
+
+        
+    
+    
+                marker_1ac321fdd68e220a5a94d1fdd21375f5.setIcon(icon_b9614033132fa8a29aca68ed4b835c52);
+            
+    
+            var marker_b92abcef3184b241fee9d67e8cf7fb20 = L.marker(
+                [50.22986600924736, 72.66936341092766],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_d53e254d7262ab5cc218d5ebd585fd14 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a676381f7c98510d177af9e87eeedc5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b86fe6723a842d06ca1358a7f9985fa3 = $(`<div id="html_b86fe6723a842d06ca1358a7f9985fa3" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-744<br>Sector: Oil_Gas_Energy<br>Conc: 4263 ppm-m</div>`)[0];
+                popup_a676381f7c98510d177af9e87eeedc5e.setContent(html_b86fe6723a842d06ca1358a7f9985fa3);
+            
+        
+
+        marker_b92abcef3184b241fee9d67e8cf7fb20.bindPopup(popup_a676381f7c98510d177af9e87eeedc5e)
+        ;
+
+        
+    
+    
+                marker_b92abcef3184b241fee9d67e8cf7fb20.setIcon(icon_d53e254d7262ab5cc218d5ebd585fd14);
+            
+    
+            var marker_46b27ff20067d31c6038d44bff1a5b1a = L.marker(
+                [50.2307413411, 72.9058684248],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_717b95a1e0e810c4fc6380d9d11fd660 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5a6c3c49e1c1da84593e20467947c7df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6156fe6abea66bda7bccec9f31db9403 = $(`<div id="html_6156fe6abea66bda7bccec9f31db9403" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-743<br>Sector: Oil_Gas_Energy<br>Conc: 3843 ppm-m</div>`)[0];
+                popup_5a6c3c49e1c1da84593e20467947c7df.setContent(html_6156fe6abea66bda7bccec9f31db9403);
+            
+        
+
+        marker_46b27ff20067d31c6038d44bff1a5b1a.bindPopup(popup_5a6c3c49e1c1da84593e20467947c7df)
+        ;
+
+        
+    
+    
+                marker_46b27ff20067d31c6038d44bff1a5b1a.setIcon(icon_717b95a1e0e810c4fc6380d9d11fd660);
+            
+    
+            var marker_5a08dbf60d43a7e3294af34694f49189 = L.marker(
+                [50.2236923184, 72.670539511],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_f432285c33093221e01fc95c40797dcd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1045326a9476cf9d290b3bc2581ff958 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b01e63624703625eedae1b9fcbc2c486 = $(`<div id="html_b01e63624703625eedae1b9fcbc2c486" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-744<br>Sector: Oil_Gas_Energy<br>Conc: 4263 ppm-m</div>`)[0];
+                popup_1045326a9476cf9d290b3bc2581ff958.setContent(html_b01e63624703625eedae1b9fcbc2c486);
+            
+        
+
+        marker_5a08dbf60d43a7e3294af34694f49189.bindPopup(popup_1045326a9476cf9d290b3bc2581ff958)
+        ;
+
+        
+    
+    
+                marker_5a08dbf60d43a7e3294af34694f49189.setIcon(icon_f432285c33093221e01fc95c40797dcd);
+            
+    
+            var marker_7941513eb2659a0095a8fce6a38bdde6 = L.marker(
+                [44.03563761890938, 87.87513304259126],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_48011501d368e0976bb633f21305858a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_74ec3471a0f79f7764c6b87cf28e26ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02781946fe675cea856519241dd2633c = $(`<div id="html_02781946fe675cea856519241dd2633c" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-508<br>Sector: Oil_Gas_Energy<br>Conc: 4657 ppm-m</div>`)[0];
+                popup_74ec3471a0f79f7764c6b87cf28e26ce.setContent(html_02781946fe675cea856519241dd2633c);
+            
+        
+
+        marker_7941513eb2659a0095a8fce6a38bdde6.bindPopup(popup_74ec3471a0f79f7764c6b87cf28e26ce)
+        ;
+
+        
+    
+    
+                marker_7941513eb2659a0095a8fce6a38bdde6.setIcon(icon_48011501d368e0976bb633f21305858a);
+            
+    
+            var marker_5bd194c32a127a6e415ae64a1b1314f9 = L.marker(
+                [44.0379037273, 87.8698592863],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_ccbf7c6d4fa428effba088045d9773c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_35197e8be1d5970be701f699ccacb051 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa4b53b005537b7e2ce84f5d5e0f1400 = $(`<div id="html_aa4b53b005537b7e2ce84f5d5e0f1400" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-508<br>Sector: Oil_Gas_Energy<br>Conc: 4657 ppm-m</div>`)[0];
+                popup_35197e8be1d5970be701f699ccacb051.setContent(html_aa4b53b005537b7e2ce84f5d5e0f1400);
+            
+        
+
+        marker_5bd194c32a127a6e415ae64a1b1314f9.bindPopup(popup_35197e8be1d5970be701f699ccacb051)
+        ;
+
+        
+    
+    
+                marker_5bd194c32a127a6e415ae64a1b1314f9.setIcon(icon_ccbf7c6d4fa428effba088045d9773c6);
+            
+    
+            var marker_84b5e60bd12741197146d169c6938650 = L.marker(
+                [31.92948163653175, 36.19576902447884],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_94a1ad1c165aec0407aeb4496fd24e7f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_477b73f3abf65aa50d9910b322e0b202 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a08af8c2b700357e59645c5e6830edd5 = $(`<div id="html_a08af8c2b700357e59645c5e6830edd5" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-505<br>Sector: Oil_Gas_Energy<br>Conc: 4325 ppm-m</div>`)[0];
+                popup_477b73f3abf65aa50d9910b322e0b202.setContent(html_a08af8c2b700357e59645c5e6830edd5);
+            
+        
+
+        marker_84b5e60bd12741197146d169c6938650.bindPopup(popup_477b73f3abf65aa50d9910b322e0b202)
+        ;
+
+        
+    
+    
+                marker_84b5e60bd12741197146d169c6938650.setIcon(icon_94a1ad1c165aec0407aeb4496fd24e7f);
+            
+    
+            var marker_51fc3ba3647463bbe07bf145763ee368 = L.marker(
+                [31.9287670849, 36.1961845709],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_f4a3d98ebac8ff638a3ffa99972b9c2c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_08713dd229ed46191a1f726a16df8cf8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6512b8223f92b08e070740235c40ff4 = $(`<div id="html_c6512b8223f92b08e070740235c40ff4" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-505<br>Sector: Oil_Gas_Energy<br>Conc: 4325 ppm-m</div>`)[0];
+                popup_08713dd229ed46191a1f726a16df8cf8.setContent(html_c6512b8223f92b08e070740235c40ff4);
+            
+        
+
+        marker_51fc3ba3647463bbe07bf145763ee368.bindPopup(popup_08713dd229ed46191a1f726a16df8cf8)
+        ;
+
+        
+    
+    
+                marker_51fc3ba3647463bbe07bf145763ee368.setIcon(icon_f4a3d98ebac8ff638a3ffa99972b9c2c);
+            
+    
+            var marker_83140ab4613f32eefdcf3be6df8b814c = L.marker(
+                [39.09529507907017, 109.47824587364894],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_e6cfbfb232e707308fe604efe7d8afa5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8126cf7768ba6b713bbc99980a708880 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69ebe83708fefcd2f909c64466bf4070 = $(`<div id="html_69ebe83708fefcd2f909c64466bf4070" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-514<br>Sector: Oil_Gas_Energy<br>Conc: 4655 ppm-m</div>`)[0];
+                popup_8126cf7768ba6b713bbc99980a708880.setContent(html_69ebe83708fefcd2f909c64466bf4070);
+            
+        
+
+        marker_83140ab4613f32eefdcf3be6df8b814c.bindPopup(popup_8126cf7768ba6b713bbc99980a708880)
+        ;
+
+        
+    
+    
+                marker_83140ab4613f32eefdcf3be6df8b814c.setIcon(icon_e6cfbfb232e707308fe604efe7d8afa5);
+            
+    
+            var marker_663ddc8ce9fe6bbf613587101e263b52 = L.marker(
+                [39.0900319799, 109.4789096836],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_4b97d47a05c87898523955c42a72ec03 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cab05e3b2cca84ce5aa9fce47eeddcbe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7ebee06230937c3af0d5e4436dce197 = $(`<div id="html_a7ebee06230937c3af0d5e4436dce197" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-514<br>Sector: Oil_Gas_Energy<br>Conc: 4655 ppm-m</div>`)[0];
+                popup_cab05e3b2cca84ce5aa9fce47eeddcbe.setContent(html_a7ebee06230937c3af0d5e4436dce197);
+            
+        
+
+        marker_663ddc8ce9fe6bbf613587101e263b52.bindPopup(popup_cab05e3b2cca84ce5aa9fce47eeddcbe)
+        ;
+
+        
+    
+    
+                marker_663ddc8ce9fe6bbf613587101e263b52.setIcon(icon_4b97d47a05c87898523955c42a72ec03);
+            
+    
+            var marker_8379bef3066f3b4d9bb1b1cc51e4821a = L.marker(
+                [31.23143201525893, 48.96477375942796],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_c98318585e5e36b4cb1c3fbef842d966 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d62e7c4dcdcbb806f8aa8e5c24c56b0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd3ca3486eeca4360a0599954c73666d = $(`<div id="html_fd3ca3486eeca4360a0599954c73666d" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-2713<br>Sector: Oil_Gas_Energy<br>Conc: 3883 ppm-m</div>`)[0];
+                popup_d62e7c4dcdcbb806f8aa8e5c24c56b0d.setContent(html_fd3ca3486eeca4360a0599954c73666d);
+            
+        
+
+        marker_8379bef3066f3b4d9bb1b1cc51e4821a.bindPopup(popup_d62e7c4dcdcbb806f8aa8e5c24c56b0d)
+        ;
+
+        
+    
+    
+                marker_8379bef3066f3b4d9bb1b1cc51e4821a.setIcon(icon_c98318585e5e36b4cb1c3fbef842d966);
+            
+    
+            var marker_958f9cdaa10d1e6dfad0a938ba1e929b = L.marker(
+                [31.2292871338, 48.9652181905],
+                {
+}
+            ).addTo(map_428e1a6fbac4cdff6cd11b04f71766d6);
+        
+    
+            var icon_3512c16e9a8515f251964d59526cdade = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c652be5e2258871056ccbea27a0b03fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33117dbde945bafa511293461394f66f = $(`<div id="html_33117dbde945bafa511293461394f66f" style="width: 100.0%; height: 100.0%;">ID: CH4_PlumeComplex-2713<br>Sector: Oil_Gas_Energy<br>Conc: 3883 ppm-m</div>`)[0];
+                popup_c652be5e2258871056ccbea27a0b03fb.setContent(html_33117dbde945bafa511293461394f66f);
+            
+        
+
+        marker_958f9cdaa10d1e6dfad0a938ba1e929b.bindPopup(popup_c652be5e2258871056ccbea27a0b03fb)
+        ;
+
+        
+    
+    
+                marker_958f9cdaa10d1e6dfad0a938ba1e929b.setIcon(icon_3512c16e9a8515f251964d59526cdade);
+            
+</script>
+</html>

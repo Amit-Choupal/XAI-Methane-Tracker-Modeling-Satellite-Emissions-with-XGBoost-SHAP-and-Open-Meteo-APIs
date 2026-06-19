@@ -1,0 +1,2 @@
+# XAI-Methane-Tracker-Modeling-Satellite-Emissions-with-XGBoost-SHAP-and-Open-Meteo-APIs
+This Explainable AI (XAI) pipeline ingests raw NASA EMIT satellite data, handles missing labels via a rule-based heuristic engine, and joins targets with Open-Meteo weather APIs. It trains an XGBoost model to predict methane concentrations and uses SHAP to reverse-engineer predictions into real-world, physics-based compliance audits.

@@ -2,7 +2,7 @@
 This Explainable AI (XAI) pipeline ingests raw NASA EMIT satellite data, handles missing labels via a rule-based heuristic engine, and joins targets with Open-Meteo weather APIs. It trains an XGBoost model to predict methane concentrations and uses SHAP to reverse-engineer predictions into real-world, physics-based compliance audits.
 
 # Problem Statement
-When people think of greenhouse gases, they usually think of Carbon Dioxide (CO2). But Methane (CH4) is actually much more dangerous in the short term. CH4 is over 80 times more powerful at trapping heat in our atmosphere than CO2. And the worst part is that, Methane is completely invisible to human eyes, it  has no smell, and leaks constantly from hidden sources like:Cracked valves on natural gas pipelines, Air vents in deep coal mines, Rotting garbage in massive landfills.
+When people think of greenhouse gases, they usually think of Carbon Dioxide (CO2). But Methane (CH4) is actually much more dangerous in the short term. CH4 is over 80 times more powerful at trapping heat in our atmosphere than CO2. And the worst part is that, Methane is completely invisible to human eyes, it  has no smell, and leaks constantly from hidden sources like: Cracks in natural gas pipelines, Air vents in deep coal mines, Rotting garbage in massive landfills.
 
 Many Companies often claim that their operations are perfectly clean simply because they don't track these invisible CH4 leaks. And in oder to catch them, we can now use high-tech Hyperspectral remote sensing, such as Lidar Satellites (like NASA's EMIT satellite) that can see these CH$ gas clouds from orbit.
 

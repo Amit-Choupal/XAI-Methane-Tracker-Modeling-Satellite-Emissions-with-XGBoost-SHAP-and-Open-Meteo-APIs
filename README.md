@@ -4,7 +4,7 @@ This Explainable AI (XAI) pipeline ingests raw NASA EMIT satellite data, handles
 # Problem Statement
 When people think of greenhouse gases, they usually think of Carbon Dioxide (CO2). But Methane (CH4) is actually much more dangerous in the short term. CH4 is over 80 times more powerful at trapping heat in our atmosphere than CO2. And the worst part is that, Methane is completely invisible to human eyes, it  has no smell, and leaks constantly from hidden sources like: Cracks in natural gas pipelines, Air vents in deep coal mines, Rotting garbage in massive landfills.
 
-Many Companies often claim that their operations are perfectly clean simply because they don't track these invisible CH4 leaks. And in oder to catch them, we can now use high-tech Hyperspectral remote sensing, such as Lidar Satellites (like NASA's EMIT satellite) that can see these CH$ gas clouds from orbit.
+Many Companies often claim that their operations are perfectly clean simply because they don't track these invisible CH4 leaks. And in oder to catch them, we can now use high-tech Hyperspectral remote sensing, such as Lidar Satellites (like NASA's EMIT satellite) that can see these CH4 gas clouds from orbit.
 
 However, the data sent down from the satellite is completely unlabeled. It gives us the shape of the gas cloud on a map, but it does not tell us who caused it, what kind of facility it is and how the local weather affects such leaks. Without that context, we cannot hold anyone accountable.
 

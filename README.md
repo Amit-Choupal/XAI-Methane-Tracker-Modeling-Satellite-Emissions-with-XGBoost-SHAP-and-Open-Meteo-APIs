@@ -50,23 +50,19 @@ By connecting raw satellite data with live weather maps and Explainable AI, this
    
 # Personal Finding from this project
 The Dangerous Methane Feedback Loop: This AI model proved that higher temperatures cause landfills to release much more methane gas due to faster rotting. This discovers a dangerous positive feedback loop driven by global warming:
-1 The Trigger: Human-caused climate change raises global temperatures.
-2 The Reaction: As landfills heat up, the organic waste degrades at an accelerated rate, releasing massive, sudden plumes of methane (just as XGBoost model detected).
-3 The Multiplier: Because methane is 80 times more potent than CO2, this newly released gas traps even more heat in our atmosphere.
-4 The Loop Continues: This extra heat raises global temperatures even further, causing landfills to rot even faster and release even more methane.
+1. The Trigger: Human-caused climate change raises global temperatures.
+2. The Reaction: As landfills heat up, the organic waste degrades at an accelerated rate, releasing massive, sudden plumes of methane (just as XGBoost model detected).
+3. The Multiplier: Because methane is 80 times more potent than CO2, this newly released gas traps even more heat in our atmosphere.
+4. The Loop Continues: This extra heat raises global temperatures even further, causing landfills to rot even faster and release even more methane.
 
 While wind speed is an independent weather variable that humans can't dictate, it acts as a local multiplier. If a high-temperature day overlaps with stagnant, low-wind conditions, the methane doesn't disperse—it pools into highly concentrated, super-heating gas blankets over specific regions.
 # To Break this Hazardous CH4 positive feedback loop
-1  We cannot force the wind to blow to dilute the gas, nor can we instantly cool down the global atmosphere. However, we can control the internal temperature of landfills. By using modern engineering techniques—like bio-tarps, deep-soil capping, and internal cooling/aeration systems—we can keep the garbage cool and oxygenated, slowing down the degradation rate even during a summer heatwave.
-However, just slowing down the degradation rate inside a landfill is not a truly sustainable, long-term solution. Slowing down degradation using deep soil caps, bio-tarps, or cooling systems is what we call mitigation. True sustainability means changing the system so the problem can never happen in the first place.
-
-2 The best way to control this variable is to starve the loop completely by practicing a circular economy. If we divert organic waste (like food scraps and yard waste) away from landfills and into industrial composting or biogas digesters, there will be nothing left in the dump to rot. No rotting means no methane, no matter how hot the summer gets.
-
-3 Instead of trying to control the weather or the rot inside a giant trash pile, humans can control what goes into the pile.
+1. We cannot force the wind to blow to dilute the gas, nor can we instantly cool down the global atmosphere. However, we can control the internal temperature of landfills. By using modern engineering techniques—like bio-tarps, deep-soil capping, and internal cooling/aeration systems—we can keep the garbage cool and oxygenated, slowing down the degradation rate even during a summer heatwave. However, just slowing down the degradation rate inside a landfill is not a truly sustainable, long-term solution. Slowing down degradation using deep soil caps, bio-tarps, or cooling systems is what we call mitigation. True sustainability means changing the system so the problem can never happen in the first place.
+2. The best way to control this variable is to starve the loop completely by practicing a circular economy. If we divert organic waste (like food scraps and yard waste) away from landfills and into industrial composting or biogas digesters, there will be nothing left in the dump to rot. No rotting means no methane, no matter how hot the summer gets.
+3. Instead of trying to control the weather or the rot inside a giant trash pile, humans can control what goes into the pile.
 Instead of letting the waste rot uncontrollably in the sun, we can deliberately place organic waste into sealed, engineered tanks called Anaerobic Digesters.
 Inside these tanks, we want the waste to degrade as fast as possible. We trap 100% of the methane it produces and burn it to create electricity and heat for the city.This turns a climate hazard into a renewable energy source, completely breaking the environmental feedback loop.
-
-4 Since wind and temperature are independent, we can use your project's logic to create a predictive dashboard. If the weather forecast predicts a week of high heat and zero wind (stagnant air), landfill operators can take preventative action before the loop starts—such as applying extra daily soil cover or activating methane-capture flaring valves to trap the gas before it escapes into the atmosphere.
+4. Since wind and temperature are independent, we can use your project's logic to create a predictive dashboard. If the weather forecast predicts a week of high heat and zero wind (stagnant air), landfill operators can take preventative action before the loop starts—such as applying extra daily soil cover or activating methane-capture flaring valves to trap the gas before it escapes into the atmosphere.
 
 # MethaneAI proves that by combining spaceborne hyperspectral data with Explainable AI, we can transform raw, invisible climate threats into actionable insights—providing the data-driven roadmap needed to break dangerous global feedback loops and build a truly transparent, sustainable future.
 ----------------------------------------------------------------------------------*-------------------------------------------------------------------------------
